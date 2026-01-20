@@ -101,7 +101,7 @@ tenants (Restaurant)
 
 ---
 
-## User Roles & Permissions
+##  User Roles & Permissions
 
 | Role | Access Level |
 |------|--------------|
@@ -152,23 +152,23 @@ Smart_restaurant/
 ### Technical Documentation
 | Document | Description |
 |----------|-------------|
-| [Database Description](./profile/docs/Db-description.md) | Complete table specifications and field definitions |
-| [Business Logic](./profile/docs/Business_Logic.md) | Detailed business rules, calculations, and validation |
-| [ERD](./profile/docs/ERD.md) | Entity Relationship Diagram (Mermaid) |
+| [Database Description](./docs/Db-description.md) | Complete table specifications and field definitions |
+| [Business Logic](./docs/Business_Logic.md) | Detailed business rules, calculations, and validation |
+| [ERD](./docs/ERD.md) | Entity Relationship Diagram (Mermaid) |
 
 ### Flow Diagrams
 | Diagram | Description |
 |---------|-------------|
-| [User Journeys](./profile/diagrams/user-journeys.md) | Customer, Admin, and Staff journey maps |
-| [System Architecture](./profile/diagrams/system-architecture.md) | High-level architecture overview |
-| [Ordering Flow](./profile/diagrams/ordering-flow.md) | End-to-end customer ordering sequence |
-| [QR Generation Flow](./profile/diagrams/qr-generation-flow.md) | QR code generation and validation |
-| [Order State Machine](./profile/diagrams/order-state-machine.md) | Order lifecycle and state transitions |
+| [User Journeys](./diagrams/user-journeys.md) | Customer, Admin, and Staff journey maps |
+| [System Architecture](./diagrams/system-architecture.md) | High-level architecture overview |
+| [Ordering Flow](./diagrams/ordering-flow.md) | End-to-end customer ordering sequence |
+| [QR Generation Flow](./diagrams/qr-generation-flow.md) | QR code generation and validation |
+| [Order State Machine](./diagrams/order-state-machine.md) | Order lifecycle and state transitions |
 
 ### Product Documentation
 | Document | Description |
 |----------|-------------|
-| [One-Pager](./profile/ONE_PAGER.md) | Product vision, problem statement, and MVP scope |
+| [One-Pager](./ONE_PAGER.md) | Product vision, problem statement, and MVP scope |
 
 ---
 
