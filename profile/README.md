@@ -23,13 +23,13 @@
 
 ---
 
-## 🎯 Problem Statement
+## Problem Statement
 
 Many small and medium restaurants lack a simple, affordable way to offer mobile ordering from the table. Customers wait for staff to take orders, causing slower service and lost incremental revenue. Existing solutions are often fragmented (paper menus, generic POS systems) and don't provide a seamless dine-in QR ordering flow.
 
 ---
 
-## 👥 Target Users
+## Target Users
 
 | User Type | Description |
 |-----------|-------------|
@@ -39,41 +39,41 @@ Many small and medium restaurants lack a simple, affordable way to offer mobile 
 
 ---
 
-## ✨ Core Features
+## Core Features
 
-### 🏢 Multi-Tenancy
+### Multi-Tenancy
 Each restaurant operates as an isolated tenant with its own:
 - Menu catalog and pricing
 - Staff accounts with role-based access
 - Tables and unique QR codes
 - Custom settings (tax rates, service charges, discounts)
 
-### 📱 QR-Based Table Ordering
+### QR-Based Table Ordering
 - Generate unique, signed QR codes per table
 - Customers scan to instantly access tenant-branded menus
 - Secure token-based authentication with expiration
 
-### 🍜 Menu Management
+### Menu Management
 - Organize items into categories with display ordering
 - Rich dish details: images, descriptions, preparation times
 - Flexible modifier system (sizes, toppings, add-ons) with dynamic pricing
 - Availability and visibility controls
 
-### 📝 Order Processing
+### Order Processing
 ```
 [Create] → Unsubmit → Approved → Pending → Completed → Served → Paid
                 |          |          |
                 └──────────┴──────────┴────────→ Cancelled
 ```
 
-### 💳 Payment Processing
+### Payment Processing
 - Support for Cash, Card, and E-Wallet methods
 - Automatic calculation of subtotals, discounts, taxes, and service charges
 - Detailed payment breakdown and receipt generation
 
 ---
 
-## 🗄️ Database Architecture
+## Database Architecture
 
 The platform uses a shared **PostgreSQL** database with **17 core tables** organized into three layers:
 
@@ -101,7 +101,7 @@ tenants (Restaurant)
 
 ---
 
-## 👨‍💼 User Roles & Permissions
+## User Roles & Permissions
 
 | Role | Access Level |
 |------|--------------|
@@ -112,7 +112,7 @@ tenants (Restaurant)
 
 ---
 
-## 📊 Success Metrics
+## Success Metrics
 
 | Metric | Target |
 |--------|--------|
@@ -122,7 +122,7 @@ tenants (Restaurant)
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 Smart_restaurant/
@@ -147,32 +147,32 @@ Smart_restaurant/
 
 ---
 
-## 📚 Documentation
+## Documentation
 
 ### Technical Documentation
 | Document | Description |
 |----------|-------------|
-| [Database Description](./docs/Db-description.md) | Complete table specifications and field definitions |
-| [Business Logic](./docs/Business_Logic.md) | Detailed business rules, calculations, and validation |
-| [ERD](./docs/ERD.md) | Entity Relationship Diagram (Mermaid) |
+| [Database Description](./profile/docs/Db-description.md) | Complete table specifications and field definitions |
+| [Business Logic](./profile/docs/Business_Logic.md) | Detailed business rules, calculations, and validation |
+| [ERD](./profile/docs/ERD.md) | Entity Relationship Diagram (Mermaid) |
 
 ### Flow Diagrams
 | Diagram | Description |
 |---------|-------------|
-| [User Journeys](./diagrams/user-journeys.md) | Customer, Admin, and Staff journey maps |
-| [System Architecture](./diagrams/system-architecture.md) | High-level architecture overview |
-| [Ordering Flow](./diagrams/ordering-flow.md) | End-to-end customer ordering sequence |
-| [QR Generation Flow](./diagrams/qr-generation-flow.md) | QR code generation and validation |
-| [Order State Machine](./diagrams/order-state-machine.md) | Order lifecycle and state transitions |
+| [User Journeys](./profile/diagrams/user-journeys.md) | Customer, Admin, and Staff journey maps |
+| [System Architecture](./profile/diagrams/system-architecture.md) | High-level architecture overview |
+| [Ordering Flow](./profile/diagrams/ordering-flow.md) | End-to-end customer ordering sequence |
+| [QR Generation Flow](./profile/diagrams/qr-generation-flow.md) | QR code generation and validation |
+| [Order State Machine](./profile/diagrams/order-state-machine.md) | Order lifecycle and state transitions |
 
 ### Product Documentation
 | Document | Description |
 |----------|-------------|
-| [One-Pager](./ONE_PAGER.md) | Product vision, problem statement, and MVP scope |
+| [One-Pager](./profile/ONE_PAGER.md) | Product vision, problem statement, and MVP scope |
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer | Technologies |
 |-------|--------------|
@@ -184,7 +184,7 @@ Smart_restaurant/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Node.js (Latest LTS version)
@@ -211,7 +211,7 @@ npm run dev
 
 ---
 
-## 🔮 Roadmap
+## Roadmap
 
 ### MVP (Current)
 - [x] Multi-tenant architecture
@@ -229,7 +229,7 @@ npm run dev
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the **MIT License** - see the [LICENSE](../LICENSE) file for details.
 
@@ -249,7 +249,7 @@ This project was developed by a dedicated team of student developers:
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Thanks to all the open-source libraries and tools that made this project possible
 - Special thanks to our mentors and instructors for their guidance
